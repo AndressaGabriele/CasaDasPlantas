@@ -1,0 +1,83 @@
+.section {
+  position: fixed;
+  width: 100%;
+}
+
+.divNav {
+  border-top: solid #000000 0.1em;
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+   width: 100%;
+  height: 30em;
+} 
+
+.imgNav {
+    display: flex;
+    left: 10em;
+    filter: opacity(80%); 
+    width: 40em;
+    position: absolute;
+
+}
+
+.imgNav2 {
+    display: flex;
+    left: 30em;
+    top: 20em;
+    position: absolute;
+
+}
+
+.imgNav3 {
+    display: flex;
+    right: 20em ;
+    width: 40.2em;
+    position: absolute;
+
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5em;
+  z-index: 9999999;
+  position: absolute;
+  top: 3.5em;
+  left: 10em;
+  color: #4a4343;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.nav {
+    position: absolute;
+    left: 55em;
+    top: 8em;
+}
+
+.ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5b5555;
+  font-size: 1.2em;
+  top: 9em;
+  right: 20em;
+  gap: 8em;
+  z-index: 999999;
+  position: relative;
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.filtro {
+  cursor: pointer;
+}
+
+.filtro:hover {
+  color: #de8d8d;
+  transition: 0.75s;
+}
